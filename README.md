@@ -46,6 +46,14 @@ are complete and verified before running. No recovery is possible after deletion
 .\delete_tiff_exports.ps1
 ```
 
+Depending on the windows configuration, it may block scripts. 
+If it gives an error saying something in the lines of "you can not run this script", 
+try the following to bypass this policy:
+
+```
+powershell -ExecutionPolicy Bypass -File "put_here_file_path"
+# ex: powershell -ExecutionPolicy Bypass -File "F:\scripts\delete_tiff_exports.ps1" 
+```
 ---
 
 ## Settings
