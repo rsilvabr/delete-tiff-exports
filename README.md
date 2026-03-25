@@ -26,6 +26,9 @@ exactly this depth are matched — other folders are not affected.
 These tools were made for my personal workflow (with the help of Claude). Use at your own risk — I am not responsible for any issues you may encounter.
 If you choose to use it and find any errors/bugs, please let me know.
 
+This script permanently deletes files and folders. Make sure your JXL conversions
+are complete and verified before running. No recovery is possible after deletion.
+
 ---
 
 ## Usage
@@ -66,9 +69,5 @@ F:\2024\Session_B\_EXPORT\16B_JXL\  ← not touched
 F:\2024\Session_B\RAW\              ← not touched
 ```
 
----
 
-## Disclaimer
 
-This script permanently deletes files and folders. Make sure your JXL conversions
-are complete and verified before running. No recovery is possible after deletion.
