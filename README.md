@@ -1,3 +1,18 @@
+# ⚠️ ARCHIVED: TO DELETE TIFFS AFTER CONVERTING, USE [JXL-PHOTO](https://github.com/rsilvabr/jxl-photo)'S `--delete-source`
+
+This repository is **no longer maintained**. It is a simple script: it deletes
+the `_EXPORT\TIFF16` folders recursively and **checks nothing** — not whether a
+JXL exists, nor whether it is complete.
+
+[jxl-photo](https://github.com/rsilvabr/jxl-photo)'s `--delete-source` does the
+same job safely: each TIFF is deleted only after its JXL is written and
+verified (decoded and compared with the TIFF), and a TIFF re-exported during
+the run is kept.
+
+Use this script only for TIFFs whose JXLs you have already verified yourself.
+
+---
+
 # delete_tiff_exports.ps1
 
 Recursively finds and deletes TIFF export folders matching a configurable path pattern.
